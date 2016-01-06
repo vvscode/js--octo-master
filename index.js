@@ -31,6 +31,7 @@ lr.on('line', function (line) {
     }, (err) => {
       console.log('[FETCHING ERROR]');
       console.log(JSON.stringify(err));
+      lr.resume();
     });
 });
 
