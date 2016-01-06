@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "line-by-line": "^0.1.4",
     "octokat": "^0.4.15"
   }
 }
